@@ -20,7 +20,8 @@
                     {{ $post->created_at->format('d M Y') }}
                 </div>
             </div>
-            @endforeach   
+            @endforeach
+            {{ $posts->links() }}   
         </div>
     </div>
 </div>
