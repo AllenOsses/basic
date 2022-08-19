@@ -6,7 +6,7 @@
             <div class="card">
                 <div class="card-header">
                     
-                    <a href="{{ route('posts.create') }}" class="btn btn-sm btn-primary float-right">
+                    <a href="{{ route('posts.create') }}" class="btn btn-sm btn-primary float-right">Crear</a>
                         Artículos
                 </div>
 
@@ -49,6 +49,7 @@
                         </tr>
                         @endforeach
                     </tbody>
+                </table>
                 </div>
             </div>
         </div>
