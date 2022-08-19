@@ -14,7 +14,7 @@
                     @endif
 
                     <form action="{{ route('posts.store') }}" method="POST"
-                    enctype="multipart/form-date">
+                    enctype="multipart/form-data">
 
                     <div class="form-group">
                         <label>Título *</label>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="form-group">
                         <label>Contenido</label>
-                        <textarea name="iframe" cols="30" rows="6" class="form-control" required></textarea>
+                        <textarea name="body" cols="30" rows="6" class="form-control" required></textarea>
                     </div>
                     <div class="form-group">
                         <label>Contenido embebido</label>
