@@ -20,6 +20,11 @@ public function getGetExcerptAttribute(){
     return substr($this->body, 0, 140);
 }
 
+public function getGetImagenAttribute(){
+    if($this->image)
+    return url("storage/$this->image");
+}
+
 }
 
 

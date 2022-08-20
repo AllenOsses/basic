@@ -49,7 +49,7 @@ class PostController extends Controller
             $post->image = $request->file('file')->store('posts', 'public');
             $post->save();
         //retorno
-        return back()->with('status', 'Creado ');
+        return back()->with('status', 'Creado con exito');
     }
 }
 
