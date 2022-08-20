@@ -18,7 +18,7 @@
                     <em>
                         &ndash; {{ $post->user->name }}
                     </em>
-                    {{ $post->created_at->format('D M Y') }}
+                    {{ $post->created_at->format('d M Y') }}
                 </div>
             </div>
            
